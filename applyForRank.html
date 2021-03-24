@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>TQM-PSAI</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">TQM-PSAI</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="allSchool.html">School</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="allCollege.html">College</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="joinUs.html">Join Us</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="applyForRank.html">Apply For Rank</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">Login</a>
+                    </li>
+                </ul>
+                <div class="dropdown">
+                    <button class="btn" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        <i class="fa fa-user"></i>
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Logout</a>
+                    </div>
+                </div>
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <!-- Title -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="text-center">Apply For Rank</h2>
+            </div>
+        </div>
+    </div>
+    <!-- Title -->
+    <hr>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3" id="joinUs">
+                <section>
+                    <img class="sideImage" src="image/trophy.svg" alt="">
+                    <h3>Find The best</h3>
+                    <p>orem Ipsum is simply dummy text of the printimbled ecimen book. It has survived not only fiv</p>
+                </section>
+                <section class="joinusgap">
+                    <img class="sideImage" src="image/open-book.svg" alt="">
+                    <h3>Find The best</h3>
+                    <p>orem Ipsum is simply dummy text of the printimbled ecimen book. It has survived not only fiv</p>
+                </section>
+                <section class="joinusgap">
+                    <img class="sideImage" src="image/student.svg" alt="">
+                    <h3>Find The best</h3>
+                    <p>orem Ipsum is simply dummy text of the printimbled ecimen book. It has survived not only fiv</p>
+                </section>
+
+            </div>
+
+            <div class="col-md-9">
+                <form action="" method="post">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h3>Baisc Information</h3>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="form-group">
+                                <label for="exampleInputEmail1"> <strong> Institution Name</strong></label>
+                                <input type="text" class="form-control" id="exampleInputEmail1"
+                                    placeholder="Institution Name">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label for="exampleInputEmail1"> <strong>Established</strong></label>
+                                <select class="custom-select" id="inputGroupSelect01">
+                                    <option selected>Select..</option>
+                                    <option value="1990">1990</option>
+                                    <option value="1991">1991</option>
+                                    <option value="1992">1992</option>
+                                    <option value="1993">1993</option>
+                                    <option value="1994">1994</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label for="exampleInputEmail1"> <strong>Division</strong></label>
+                                <select class="custom-select" id="inputGroupSelect01">
+                                    <option selected>Select...</option>
+                                    <option value="Barisal">Barisal</option>
+                                    <option value="Chittagong ">Chittagong </option>
+                                    <option value="Dhaka">Dhaka</option>
+                                    <option value="Khulna">Khulna</option>
+                                    <option value="Mymensingh">Mymensingh</option>
+                                    <option value="Rajshahi">Rajshahi</option>
+                                    <option value="Rajshahi">Sylhet</option>
+                                    <option value="Rajshahi">Rangpur</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label for="exampleInputEmail1"> <strong>Institution Type</strong></label>
+                                <!-- <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Established"> -->
+                                <select class="custom-select" id="inputGroupSelect01">
+                                    <option selected>Select...</option>
+                                    <option value="School">School</option>
+                                    <option value="College">College</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label for="exampleInputEmail1"> <strong>Email</strong></label>
+                                <input type="mail" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="exampleInputEmail1"> <strong>Location</strong></label>
+                                <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Location">
+                            </div>
+
+                        </div>
+                        <div class="col-md-6">
+
+                            <div class="form-group">
+                                <label for="exampleInputEmail1"> <strong>Degree Support</strong></label>
+                                <br>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1"
+                                        value="option1">
+                                    <label class="form-check-label" for="inlineCheckbox1">PSC</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2"
+                                        value="option2">
+                                    <label class="form-check-label" for="inlineCheckbox2">JSC</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox3"
+                                        value="option3">
+                                    <label class="form-check-label" for="inlineCheckbox3">SSC </label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox4"
+                                        value="option4">
+                                    <label class="form-check-label" for="inlineCheckbox4">HSC</label>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="exampleInputEmail1"> <strong>Total Student</strong></label>
+                                <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Total Student">
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-12">
+                            <hr>
+                        </div>
+                        <div class="col-md-12">
+                            <h3>Yearly Tuition Range</h3>
+                        </div>
+                        <div class="col-md-4 mt-2">
+                            <label > <strong>Trimester Fee:</strong></label>
+                        </div>
+                        <div class="col-md-4">
+                            <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Monthly">
+                        </div>
+                        <div class="col-md-4">
+                            <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Yearly">
+                        </div>
+                        <div class="col-md-4 mt-2">
+                            <label > <strong>Library Fee:</strong></label>
+                        </div>
+                        <div class="col-md-4  mt-1">
+                            <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Monthly">
+                        </div>
+                        <div class="col-md-4  mt-1">
+                            <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Yearly">
+                        </div>
+                        <div class="col-md-4 mt-2">
+                            <label > <strong>Field Fee:</strong></label>
+                        </div>
+                        <div class="col-md-4  mt-1">
+                            <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Monthly">
+                        </div>
+                        <div class="col-md-4  mt-1">
+                            <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Yearly">
+                        </div>
+                        <div class="col-md-4 mt-2">
+                            <label > <strong>SANC Fee:</strong></label>
+                        </div>
+                        <div class="col-md-4  mt-1">
+                            <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Monthly">
+                        </div>
+                        <div class="col-md-4  mt-1">
+                            <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Yearly">
+                        </div>
+                        <div class="col-md-12">
+                            <hr>
+                        </div>
+
+                        <div class="col-md-12">
+                            <h3>Admissions Information</h3>
+                        </div>
+                        <div class="col-md-3 mt-2">
+                            <label > <strong>Gender:</strong></label>
+                        </div>
+                        <div class="col-md-3 mt-2">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox13" value="option1">
+                            <label class="form-check-label" for="inlineCheckbox13">Male</label>
+                        </div>
+                        <div class="col-md-3 mt-2">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox14" value="option1">
+                            <label class="form-check-label" for="inlineCheckbox14">Female</label>
+                        </div>
+                        <div class="col-md-3 mt-2">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox15" value="option1">
+                            <label class="form-check-label" for="inlineCheckbox15">Both</label>
+                        </div>
+
+                        <div class="col-md-3 mt-2">
+                            <label > <strong>International Students:</strong></label>
+                        </div>
+                        <div class="col-md-3 mt-2">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" value="option1">
+                            <label class="form-check-label" for="flexRadioDefault">Yes</label>
+                        </div>
+                        <div class="col-md-3 mt-2">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" value="option1">
+                            <label class="form-check-label" for="flexRadioDefault">No</label>
+                        </div>
+                        <div class="col-md-3 mt-2"></div>
+
+                        <div class="col-md-3 mt-3">
+                            <label > <strong>Selection Type:</strong></label>
+                        </div>
+                        <div class="col-md-6 mt-2">
+                            <input class="form-control" type="text" value="" placeholder="Selection Type">
+                        </div>
+                        <div class="col-md-3 mt-2"></div>
+                        <div class="col-md-3 mt-3">
+                            <label> <strong>Admission Rate:</strong></label>
+                        </div>
+                        <div class="col-md-3 mt-2">
+                            <input class="form-control" type="text" value="" placeholder="Admission Rate">
+                        </div>
+                        <div class="col-md-3 mt-3">
+                            <label> <strong>Admission Office:</strong></label>
+                        </div>
+                        <div class="col-md-3 mt-2">
+                            <input class="form-control" type="text" value="" placeholder="Admission Office">
+                        </div>
+                        <div class="col-md-3 mt-3">
+                            <label> <strong>Contact:</strong></label>
+                        </div>
+                        <div class="col-md-3 mt-2">
+                            <input class="form-control" type="text" value="" placeholder="Contact">
+                        </div>
+                        <div class="col-md-12">
+                            <hr>
+                        </div>
+
+
+                        <div class="col-md-12">
+                            <h3>Facilities and Services</h3>
+                        </div>
+                        <div class="col-md-3 mt-2">
+                            <label> <strong>Library:</strong></label>
+                        </div>
+                        <div class="col-md-3 mt-2">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" value="option1">
+                            <label class="form-check-label" for="flexRadioDefault">Yes</label>
+                        </div>
+                        <div class="col-md-3 mt-2">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" value="option1">
+                            <label class="form-check-label" for="flexRadioDefault">No</label>
+                        </div>
+                        <div class="col-md-3 mt-2"></div>
+                        <div class="col-md-3 mt-2">
+                            <label> <strong>Housing:</strong></label>
+                        </div>
+                        <div class="col-md-3 mt-2">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault1" id="flexRadioDefault1" value="option1">
+                            <label class="form-check-label" for="flexRadioDefault">Yes</label>
+                        </div>
+                        <div class="col-md-3 mt-2">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault1" id="flexRadioDefault2" value="option1">
+                            <label class="form-check-label" for="flexRadioDefault">No</label>
+                        </div>
+                        <div class="col-md-3 mt-2"></div>
+                        <div class="col-md-3 mt-2">
+                            <label> <strong>Sport Facilities:</strong></label>
+                        </div>
+                        <div class="col-md-3 mt-2">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault2" id="flexRadioDefault1" value="option1">
+                            <label class="form-check-label" for="flexRadioDefault">Yes</label>
+                        </div>
+                        <div class="col-md-3 mt-2">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault2" id="flexRadioDefault2" value="option1">
+                            <label class="form-check-label" for="flexRadioDefault">No</label>
+                        </div>
+                        <div class="col-md-3 mt-2"></div>
+                        <div class="col-md-3 mt-2">
+                            <label> <strong>Financial Aids:</strong></label>
+                        </div>
+                        <div class="col-md-3 mt-2">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault3" id="flexRadioDefault1" value="option1">
+                            <label class="form-check-label" for="flexRadioDefault">Yes</label>
+                        </div>
+                        <div class="col-md-3 mt-2">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault3" id="flexRadioDefault2" value="option1">
+                            <label class="form-check-label" for="flexRadioDefault">No</label>
+                        </div>
+                        <div class="col-md-3 mt-2"></div>
+                        <div class="col-md-3 mt-2">
+                            <label> <strong>Study Abroad:</strong></label>
+                        </div>
+                        <div class="col-md-3 mt-2">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault4" id="flexRadioDefault1" value="option1">
+                            <label class="form-check-label" for="flexRadioDefault">Yes</label>
+                        </div>
+                        <div class="col-md-3 mt-2">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault4" id="flexRadioDefault2" value="option1">
+                            <label class="form-check-label" for="flexRadioDefault">No</label>
+                        </div>
+                        <div class="col-md-3 mt-2"></div>
+                        <div class="col-md-3 mt-2">
+                            <label> <strong>Academic Counseling:</strong></label>
+                        </div>
+                        <div class="col-md-3 mt-2">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault5" id="flexRadioDefault1" value="option1">
+                            <label class="form-check-label" for="flexRadioDefault">Yes</label>
+                        </div>
+                        <div class="col-md-3 mt-2">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault5" id="flexRadioDefault2" value="option1">
+                            <label class="form-check-label" for="flexRadioDefault">No</label>
+                        </div>
+                        <div class="col-md-3 mt-2"></div>
+                        <div class="col-md-12">
+                            <hr>
+                        </div>
+
+
+                        
+                        <div class="col-md-12">
+                            <h3>Size and Profile</h3>
+                        </div>
+                        <div class="col-md-3 mt-3">
+                            <label><strong>Student Enrollment:</strong></label>
+                        </div>
+                        <div class="col-md-3 mt-2">
+                            <input class="form-control" type="text" value="" placeholder="Student Enrollment">
+                        </div>
+                        <div class="col-md-3 mt-3">
+                            <label> <strong>Academic Staff:</strong></label>
+                        </div>
+                        <div class="col-md-3 mt-2">
+                            <input class="form-control" type="text" value="" placeholder="Academic Staff">
+                        </div>
+                        <div class="col-md-3 mt-3">
+                            <label><strong>Control Type:</strong></label>
+                        </div>
+                        <div class="col-md-3 mt-2">
+                            <input class="form-control" type="text" value="" placeholder="Control Type">
+                        </div>
+                        <div class="col-md-3 mt-3">
+                            <label> <strong>Entity Type:</strong></label>
+                        </div>
+                        <div class="col-md-3 mt-2">
+                            <input class="form-control" type="text" value="" placeholder="Entity Type">
+                        </div>
+                        <div class="col-md-3 mt-3">
+                            <label><strong>Campus Setting:</strong></label>
+                        </div>
+                        <div class="col-md-3 mt-2">
+                            <input class="form-control" type="text" value="" placeholder="Campus Setting">
+                        </div>
+                        <div class="col-md-3 mt-3">
+                            <label> <strong>Religious Affiliation:</strong></label>
+                        </div>
+                        <div class="col-md-3 mt-2">
+                            <input class="form-control" type="text" value="" placeholder="Religious Affiliation">
+                        </div>
+                        <div class="col-md-3 mt-3">
+                            <label><strong>Memberships:</strong></label>
+                        </div>
+                        <div class="col-md-3 mt-2">
+                            <input class="form-control" type="text" value="" placeholder="Memberships">
+                        </div>
+                        <div class="col-md-3 mt-3">
+                            <label> <strong>Affiliations:</strong></label>
+                        </div>
+                        <div class="col-md-3 mt-2">
+                            <input class="form-control" type="text" value="" placeholder="Affiliations">
+                        </div>
+                        <div class="col-md-3 mt-3">
+                            <label> <strong>Online Courses:</strong></label>
+                        </div>
+                        <div class="col-md-3 mt-2">
+                            <input class="form-control" type="text" value="" placeholder="Online Courses">
+                        </div>
+
+
+                        <div class="col-md-12">
+                            <button class="btn_aply float-right">Apply</button>
+                        </div>
+
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <h6>About</h6>
+                    <p class="text-justify">Lorem Ipsum is simply dummy text of the printimbled ecimen book. It has
+                        survived not only five
+                        centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It
+                        was
+                        popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                        and
+                        more recently with desktop publishing software like Aldus PageMaker including versions of Lorem
+                        Ipsum.</p>
+                </div>
+
+                <div class="col-xs-
+            6 col-md-3">
+                    <h6>Categories</h6>
+                    <ul class="footer-links">
+                        <li><a href="http://scanfcode.com/category/c-language/">C</a></li>
+                        <li><a href="http://scanfcode.com/category/front-end-development/">UI Design</a></li>
+                        <li><a href="http://scanfcode.com/category/back-end-development/">PHP</a></li>
+                        <li><a href="http://scanfcode.com/category/java-programming-language/">Java</a></li>
+                        <li><a href="http://scanfcode.com/category/android/">Android</a></li>
+                        <li><a href="http://scanfcode.com/category/templates/">Templates</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-xs-6 col-md-3">
+                    <h6>Quick Links</h6>
+                    <ul class="footer-links">
+                        <li><a href="http://scanfcode.com/about/">About Us</a></li>
+                        <li><a href="http://scanfcode.com/contact/">Contact Us</a></li>
+                        <li><a href="http://scanfcode.com/contribute-at-scanfcode/">Contribute</a></li>
+                        <li><a href="http://scanfcode.com/privacy-policy/">Privacy Policy</a></li>
+                        <li><a href="http://scanfcode.com/sitemap/">Sitemap</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-6 col-xs-12">
+                    <p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by
+                        <a href="#">Abc</a>.
+                    </p>
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <ul class="social-icons">
+                        <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+                        <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js"></script>
+    <script src="https://use.fontawesome.com/c1b9851178.js"></script>
+
+</body>
+
+</html>
